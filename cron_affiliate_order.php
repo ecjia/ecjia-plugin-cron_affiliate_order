@@ -49,7 +49,7 @@ defined('IN_ECJIA') or exit('No permission resources.');
 /*
 Plugin Name: 订单分成自动结算
 Plugin URI: http://www.ecjia.com/plugins/ecjia.cron_affiliate_order/
-Description: 普通会员和VIP会员订单分成自动结算到会员账户，分成时间以“商店设置-分销推广设置-分成时间”为准
+Description: 普通会员分成自动结算到会员账户，分成时间以“商店设置-分销推广设置-分成时间”为准
 Author: ECJIA TEAM
 Version: 1.30.0
 Author URI: http://www.ecjia.com/
