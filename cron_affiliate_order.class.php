@@ -115,7 +115,7 @@ class cron_affiliate_order extends CronAbstract
         $db_order_info_view->where(RC_DB::raw('separate_type'), $filter['status']);
 
 //        $field = "a.*, o.agencysale_store_id";
-        $field = "a.*";
+        $field = "a.*, o.order_sn";
         $db_order_info_view->select(RC_DB::raw($field));
         $db_order_info_view->orderBy(RC_DB::raw('o.order_id'), 'desc');
         return $list = $db_order_info_view->get();
